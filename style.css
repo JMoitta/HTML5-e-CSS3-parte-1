@@ -184,7 +184,7 @@ td, th {
 }
 
 .utensilios {
-	width: 120px;
+	width: 120px; /*    width: calc(48% - (26px * 4) / 4);*/ 
 	float: left;
 	margin: 0 20px 20px 0;
 }
@@ -242,18 +242,3 @@ td, th {
 	margin: 2em auto;
 }
 
-main > p {
-	background: red;
-}
-
-img + p {
-	background: blue;
-}
-
-img ~ p {
-	background: yellow;
-}
-
-.principal p:not(#missao) {
-	background: orange;
-}
