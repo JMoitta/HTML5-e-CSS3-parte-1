@@ -226,8 +226,13 @@ td, th {
 
 .itens {
 	line-height: 1.5em;
-
 }
+
+.itens::before {
+	content: "★";
+	margin: 0 0.5em 0;
+}
+
 .imagem-beneficios {
 	width: 60%;
 }
